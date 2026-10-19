@@ -153,23 +153,10 @@ for iteracao in range(20):
 
 <p align="justify">O código guarda a recompensa média de cada iteração e constrói um gráfico para observar sua evolução. Uma tendência crescente pode indicar melhoria no comportamento do agente, mas oscilações são esperadas porque a procura e a quantidade de motoristas são sorteadas. Para avaliar o aprendizado com mais confiança, seria necessário repetir os experimentos com diferentes sementes aleatórias e comparar os resultados com estratégias simples, como manter sempre a tarifa de referência.</p>
 
-```python
-plt.figure(figsize=(10, 5))
-plt.plot(
-    range(1, 21),
-    historico_recompensas,
-    marker="o",
-    linestyle="-",
-    linewidth=2
-)
-plt.title("Evolução do aprendizado do agente")
-plt.xlabel("Iteração")
-plt.ylabel("Recompensa média por episódio")
-plt.xticks(range(1, 21))
-plt.grid(True, linestyle="--", alpha=0.5)
-plt.tight_layout()
-plt.show()
-```
+
+<p align="center">
+  <img src="https://github.com/rodfloripa/Projeto97/blob/main/fig.png">
+</p>
 
 <p align="justify">A recompensa média é uma medida do objetivo definido no ambiente, e não deve ser confundida automaticamente com lucro real. O cálculo atual considera receita e penalidades, mas não inclui custos operacionais, combustível, remuneração dos motoristas, impostos ou outros fatores financeiros.</p>
 
