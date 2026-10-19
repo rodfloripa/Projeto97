@@ -1,4 +1,4 @@
-# Precificação Dinâmica com Aprendizado por Reforço
+# Precificação Dinâmica com RLLib
 
 <p align="justify">Este projeto desenvolve uma simulação de precificação dinâmica para um serviço de transporte urbano. Um agente aprende a escolher entre diferentes multiplicadores de tarifa com base na procura estimada, na quantidade de motoristas disponíveis e no horário do dia. O objetivo definido no código é aumentar a receita das corridas realizadas e reduzir as perdas associadas à espera de passageiros.</p>
 
